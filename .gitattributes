@@ -1,0 +1,9 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Force LF for specific file types (e.g., scripts)
+*.sh text eol=lf
+*.py text eol=lf
+
+# Force CRLF for specific file types (if needed, but usually not)
+*.txt text eol=crlf
